@@ -37,3 +37,15 @@ You have two easy ways to deploy this app to Vercel.
 - The build command is `npm run build`.
 - The output directory is `dist`.
 - If you make changes, just run `npx vercel --prod` to update the potential deployment!
+
+## ⚠️ Important: Project Folder Setting
+
+Since your code is inside the `valentine-chuckki` folder (not the very top folder), you **MUST** tell Vercel this.
+
+1.  **During Import (GitHub):**
+    - Click **Edit** next to **Root Directory**.
+    - Select `valentine-chuckki`.
+    2.  **If already created:**
+    - Go to your Project Settings on Vercel.
+    - Under **General** -> **Root Directory**, change it to: `valentine-chuckki`.
+    - Save and Redeploy.
