@@ -49,7 +49,7 @@ const Success = () => {
         </p>
         <div className="mt-10 text-8xl animate-bounce">💑</div>
         <p className="mt-4 text-sm text-gray-400">
-          Forever & Always, <br /> Your Valentine Thadis!
+          Forever & Always, <br /> Your Valentine Thadis!!
         </p>
       </div>
     </div>
